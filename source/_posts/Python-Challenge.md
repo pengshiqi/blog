@@ -105,21 +105,4 @@ first 和 second 连接起来，相邻的两个数字作为一个点的坐标，
 
 将网页源代码中的文本信息转换成音频wav文件，encoding方式为base64，然后发现只有一个单词 sorry，看提示图片可知，需要把每一帧音频反转，得到的音频文件内容为 ‘You are an idiot'，于是，答案便为 *idiot*。
 
-### Level 20
-
-### Level 21
-
-### Level 22
-
-### Level 23
-
-### Level 24
-### Level 25
-### Level 26
-### Level 27
-### Level 28
-### Level 29
-### Level 30
-### Level 31
-### Level 32
-### Level 33
+### To be continued...
