@@ -1,7 +1,7 @@
 ---
 title: Python Challenge
 date: 2016-08-27 13:57:44
-tags:
+tags: python
 ---
 
 最近发现了一个有趣的闯关游戏，叫[Python Challenge](http://www.pythonchallenge.com/)。在做题的同时，也能学习到一些新的python模块。

@@ -1,7 +1,7 @@
 ---
 title: 翻墙教程：用国外VPS搭建自己的Shadowsocks服务器
 date: 2016-09-21 16:22:57
-tags:
+tags: Shadowsocks
 ---
 
 作为一个百度黑，翻墙是生存下来的必要手段，之前一年都是购买的shadowsocks的代理服务，99元一年。前不久申请了GitHub Student Pack,听说里面有赠送免费的VPS，于是就自己动手搭建了一个海外服务器，来提供翻墙之用。
@@ -67,7 +67,18 @@ vi /etc/shadowsocks.json
 
 按i进入编辑模式，esc退出编辑模式，修改完成后，退出编辑模式，输入:wq保存退出，:q!不保存退出。
 
-应用配置文件启动服务。若需停止则把 start 换成 stop
+启动 shadowsocks 服务器的命令如下:
+
+```bash
+ssserver -c /etc/shadowsocks.json
+```
+
+后台启动和停止shadowsocks服务器:
+
+```
+ssserver -c /etc/shadowsocks.json -d start
+ssserver -c /etc/shadowsocks.json -d stop
+```
 
 大功告成！！！梯子已准备完毕！！
 
