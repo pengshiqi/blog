@@ -2,7 +2,7 @@
 title: Unix系统下的tree命令——展示目录树结构
 date: 2016-08-17 20:05:15
 categories: Mac
-tags: Mac, linux
+tags: [Mac, Linux]
 ---
 
 在UNIX系统下，我们可以很方便地使用tree命令来查看当前目录下的目录树结构。

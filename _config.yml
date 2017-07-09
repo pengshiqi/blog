@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Patrick_psq's BLOG
+title: Last Whisper
 subtitle:
 description: Where there is a will, there is a way.
 author: Patrick_psq
-language: zh-Hans
+language: en
 timezone:
 avatar: /images/profile.jpg
 
@@ -64,19 +64,26 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: maupassant
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/pengshiqi/pengshiqi.github.io.git 
+  repository: https://github.com/pengshiqi/pengshiqi.github.io.git
   branch: master
 
-duoshuo_shortname: pengshiqi
+# duoshuo_shortname: pengshiqi
+disqus_shortname: patrick-psq
 
 # add post views
 leancloud_visitors:
   enable: true
   app_id: yDzodmy6PubO3OvxiRzUUs9a-gzGzoHsz
   app_key: V0VQ4qcQtaT5ynIIkGBnCKBr
+
+archive_generator:
+  per_page: 0
+  yearly: false
+  monthly: false
+  daily: false
