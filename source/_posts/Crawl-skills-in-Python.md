@@ -1,8 +1,8 @@
 ---
 title: Python中的爬虫技巧
 date: 2017-02-06 13:57:31
-categories: python
-tags: [python, crawl]
+categories: Python
+tags: [Python, crawl]
 ---
 
 网页爬虫是一种非常有用的获取数据的方式，之前每次需要爬虫时都上网查一些资料，遂想写点东西，把用过的这些技巧都记录下来，以便日后方便使用。

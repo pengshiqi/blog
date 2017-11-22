@@ -1,8 +1,8 @@
 ---
-title: python中的虚拟环境
+title: Python中的虚拟环境
 date: 2016-10-03 17:11:49
-tags: python
-categories: python
+tags: Python
+categories: Python
 ---
 
 不同的项目之间可能会使用不同版本的某些包，但是因为某些原因（比如有依赖冲突）却不能都升级到最新版本。这时候就需要对环境进行隔离，使用虚拟环境让全局的site-packages目录非常干净和可管理。

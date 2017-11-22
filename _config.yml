@@ -87,3 +87,21 @@ archive_generator:
   yearly: false
   monthly: false
   daily: false
+
+# mathjax: true
+
+math:
+  engine: 'mathjax' # or 'katex'
+  mathjax:
+    src: custom_mathjax_source
+    config:
+      # MathJax config
+  katex:
+    css: custom_css_source
+    js: custom_js_source # not used
+    config:
+      # KaTeX config
+
+
+
+
