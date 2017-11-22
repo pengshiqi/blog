@@ -9,6 +9,7 @@ categories: Machine Learning
 
 马尔科夫链是满足马尔科夫性质的随机过程。
 
+<!-- more -->
 
 
 ## 形式化定义

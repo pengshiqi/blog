@@ -12,6 +12,8 @@ categories: Machine Learning
 >
 >LDA是一种典型的词袋模型，即它认为一篇文档是由一组词构成的一个集合，词与词之间没有顺序以及先后的关系。一篇文档可以包含多个主题，文档中每一个词都由其中的一个主题生成。
 
+<!-- more -->
+
 理解LDA，可分为以下5个步骤：
 
 1. 一个函数：gamma函数
@@ -24,17 +26,16 @@ categories: Machine Learning
 
 在LDA模型中，一篇文档的生成方式如下：
 
-- 从狄利克雷分布\\( \alpha \\)中取样生成文档\\( i \\) 的主题分布\\( \theta_{i} \\) 
-- 从主题的多项式分布\\( \theta_{i} \\) 中取样生成文档\\( i \\)  第 \\( j \\)   个词的主题 \\( z_{i,j} \\)
-- 从狄利克雷分布\\( \beta \\)中取样生成主题\\( z_{i,j} \\)对应的词语分布\\( \phi_{z_{i,j}} \\)
-- 从词语的多项式分布\\( \phi_{z_{i,j}} \\)中采样最终生成词语\\( w_{i,j} \\).
+- 从狄利克雷分布\\( \alpha \\)中取样生成文档\\( i \\) 的主题分布\\( \theta\_{i} \\) 
+- 从主题的多项式分布\\( \theta\_{i} \\) 中取样生成文档\\( i \\)  第 \\( j \\)   个词的主题 \\( z\_{i,j} \\)
+- 从狄利克雷分布\\( \beta \\)中取样生成主题\\( z\_{i,j} \\)对应的词语分布\\( \phi\_{z\_{i,j}} \\)
+- 从词语的多项式分布\\( \phi\_{z\_{i,j}} \\)中采样最终生成词语\\( w\_{i,j} \\).
 
 
 ## Reference
 
 * [通俗理解LDA主题模型](http://blog.csdn.net/v_july_v/article/details/41209515)
 * [隐含狄利克雷分布](https://zh.wikipedia.org/wiki/隐含狄利克雷分布)
-
 
 <script type="text/javascript"
    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">

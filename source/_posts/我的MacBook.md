@@ -13,6 +13,8 @@ categories: [Mac, Linux]
 
 MBP 主要的优势在于 user-friendly，并且是 \*nix 系统，相比windows省去了很多配置环境上的麻烦，相比Linux又好用许多.
 
+<!-- more -->
+
 
 ## 1. IDE(Integrated Development Environment)
 

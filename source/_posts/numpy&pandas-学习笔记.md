@@ -18,7 +18,7 @@ categories: Python
 >
 > Besides its obvious scientific uses, NumPy can also be used as an efficient multi-dimensional container of generic data. Arbitrary data-types can be defined. This allows NumPy to seamlessly and speedily integrate with a wide variety of databases.
 
-
+<!-- more -->
 
 NumPy主要用来存储和处理大型矩阵，比Python自身的嵌套列表(nested list structure)结构要高效的多，本身是由C语言开发。这个是很基础的扩展，其余的扩展都是以此为基础。数据结构为ndarray，一般有三种方式来创建：
 

@@ -7,6 +7,8 @@ categories: Network
 
 据说明年3月将大量封禁 VPN ，于是想研究一下 Shadowsocks 的原理，看看是否还能使用。
 
+<!-- more -->
+
 Shadowsocks 是目前最好的科学上网方式，**它的流量经过加密，所以没有流量特征，不会被GFW阻断**！
 
 之前写过[如何搭建 Shadowsocks 的教程](https://pengshiqi.github.io/2016/09/21/build-shadowsocks-VPN/)，这次写一写 Shadowsocks 背后的原理。
