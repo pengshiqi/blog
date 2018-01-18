@@ -231,6 +231,7 @@ auto_excerpt:
 # MathJax Support
 mathjax:
   enable: true
+  per_page: true
   cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 
@@ -396,4 +397,4 @@ version: 5.0.1
 # Donate 文章末尾显示打赏按钮
 reward_comment: May The Force Be With You.
 wechatpay: http://obw22u9v2.bkt.clouddn.com/wechatpayWechatIMG1.jpeg
-alipay: http://obw22u9v2.bkt.clouddn.com/alipayWechatIMG2.jpeg
+alipay: http://obw22u9v2.bkt.clouddn.com/alipay2alipay.png
