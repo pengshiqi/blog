@@ -85,3 +85,62 @@ ssserver -c /etc/shadowsocks.json -d stop
 #### shadowsocks的使用
 
 下载一个shadowsocks客户端，输入自己的配置参数，就可以使用啦！
+
+
+
+----
+
+
+
+🌀 ***2018-11-19 14:41 Update***
+
+今天又去新开一个droplet，按上面的步骤操作，结果报错了...
+
+报错信息：
+
+```
+root@ubuntu-s-1vcpu-1gb-sfo2-01:~# ssserver -c /etc/shadowsocks.json
+INFO: loading config from /etc/shadowsocks.json
+2018-11-19 06:29:00 INFO     loading libcrypto from libcrypto.so.1.1
+Traceback (most recent call last):
+  File "/usr/local/bin/ssserver", line 11, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python2.7/dist-packages/shadowsocks/server.py", line 34, in main
+    config = shell.get_config(False)
+  File "/usr/local/lib/python2.7/dist-packages/shadowsocks/shell.py", line 262, in get_config
+    check_config(config, is_local)
+  File "/usr/local/lib/python2.7/dist-packages/shadowsocks/shell.py", line 124, in check_config
+    encrypt.try_cipher(config['password'], config['method'])
+  File "/usr/local/lib/python2.7/dist-packages/shadowsocks/encrypt.py", line 44, in try_cipher
+    Encryptor(key, method)
+  File "/usr/local/lib/python2.7/dist-packages/shadowsocks/encrypt.py", line 83, in __init__
+    random_string(self._method_info[1]))
+  File "/usr/local/lib/python2.7/dist-packages/shadowsocks/encrypt.py", line 109, in get_cipher
+    return m[2](method, key, iv, op)
+  File "/usr/local/lib/python2.7/dist-packages/shadowsocks/crypto/openssl.py", line 76, in __init__
+    load_openssl()
+  File "/usr/local/lib/python2.7/dist-packages/shadowsocks/crypto/openssl.py", line 52, in load_openssl
+    libcrypto.EVP_CIPHER_CTX_cleanup.argtypes = (c_void_p,)
+  File "/usr/lib/python2.7/ctypes/__init__.py", line 379, in __getattr__
+    func = self.__getitem__(name)
+  File "/usr/lib/python2.7/ctypes/__init__.py", line 384, in __getitem__
+    func = self._FuncPtr((name_or_ordinal, self))
+AttributeError: /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1: undefined symbol: EVP_CIPHER_CTX_cleanup
+```
+
+
+
+查了一下， 发现原因是：
+
+`Ubuntu 18.04下由于升级 openssl 至1.1.0以上版本导致的 shadowsocks 服务出现 undefined symbol: EVP_CIPHER_CTX_cleanup 错误而无法启动的问题`。
+
+这是由于在openssl 1.1.0中废弃了 `EVP_CIPHER_CTX_cleanup()` 函数而引入了 `EVE_CIPHER_CTX_reset()` 函数所导致的。
+
+因此，可以通过将 `EVP_CIPHER_CTX_cleanup()` 函数替换为 `EVP_CIPHER_CTX_reset()` 函数来解决该问题。具体解决方法如下：
+
+1、根据错误信息定位到文件 `/usr/local/lib/python2.7/dist-packages/shadowsocks/crypto/openssl.py` 。
+
+2、搜索 cleanup 并将其替换为 reset 。（我这个版本中有两处，分别是在52行和111行。）
+
+3、重新启动 shadowsocks, 该问题解决。
+
