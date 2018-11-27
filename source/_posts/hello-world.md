@@ -2,6 +2,7 @@
 title: Hello World
 date: 2016-08-10 00:00:00
 tags: Life
+categories: [杂]
 ---
 大家好，我是 Patrick, 现在是上海交通大学EE的本科生。
 

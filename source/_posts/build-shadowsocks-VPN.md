@@ -1,7 +1,8 @@
 ---
 title: 翻墙教程：用国外VPS搭建自己的Shadowsocks服务器
 date: 2016-09-21 16:22:57
-tags: Shadowsocks
+tags: [Shadowsocks]
+categories: [杂]
 ---
 
 作为一个百度黑，翻墙是生存下来的必要手段，之前一年都是购买的shadowsocks的代理服务，99元一年。前不久申请了GitHub Student Pack,听说里面有赠送免费的VPS，于是就自己动手搭建了一个海外服务器，来提供翻墙之用。

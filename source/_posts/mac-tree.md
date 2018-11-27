@@ -1,7 +1,7 @@
 ---
 title: Unix系统下的tree命令——展示目录树结构
 date: 2016-08-17 20:05:15
-categories: Mac
+categories: [Linux]
 tags: [Mac, Linux]
 ---
 

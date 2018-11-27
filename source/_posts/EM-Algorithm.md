@@ -1,7 +1,8 @@
 ---
 title: EM Algorithm
 date: 2018-01-18 13:08:13
-tags: Machine Learning
+tags: [Machine Learning]
+categories: [Machine Learning]
 ---
 
 I'd like to talk about something about EM algorithm in my understanding.
@@ -28,9 +29,9 @@ $$
 
 For data $X = \{ x_1, \dots, x_n \}$, we introduce latent variable $Z = \{ z_1, \dots, z_n \}$, each $z_i$ indicates which mixture components $x_i$ belongs to. (The introduction of latent variable should **not** change the *marginal distribution* of $p(X)$.)
 
-Then we can use MLE to estimate $\Theta$:
+Then we can use MLE to estimate $\Theta$ : 
 $$
-\Theta_{MLE} = \mathop{\arg\max}\limits_{\Theta} \Big( \sum_{i=1}^N \log \big[ \sum_{l=1}^k \alpha_l \mathcal{N}(x_i | \mu_l, \Sigma_l) \big] \Big) \tag{4}
+\Theta_{MLE} = \mathop{\arg\max}\limits_{\Theta} \Big( \sum_{i=1}^N \log \big[ \sum_{l=1}^k \alpha_l \mathcal{N}(x_i | \mu_l, \Sigma_l) \big] \Big) \tag{4} 
 $$
 
 This formula is difficult to solve because it is in 'log-of-sum' form. So, we solve this problem in an iterative way, called ***Expectation Maximization***.
@@ -39,10 +40,10 @@ This formula is difficult to solve because it is in 'log-of-sum' form. So, we so
 ### Expectation Maximization
 
 Instead of performing 
-
 $$
 \Theta_{MLE} = \mathop{\arg\max}\limits{\Theta} \Big( \mathcal{L}(\Theta) \Big) = \mathop{\arg\max}\limits_{\Theta} \Big( \log \big( p(X|\Theta) \big ) \Big) \tag{5}
 $$
+
 we assume some latent variable $Z$ to the model, such that we generate a series of $\Theta = \{ \Theta^{(1)},  \Theta^{(2)}, \dots, \Theta^{(t)} \}$.
 
 For each iteration of the E-M algorithm, we perform:
@@ -102,9 +103,13 @@ p (Z | X, \Theta) = \Pi_{i=1}^{n} p(z_i|x_i, \Theta) = \Pi_{i=1}^{n} \frac{\alph
 $$
  Then 
 $$
-Q(\Theta, \Theta^{(g)}) = \sum_{z_1= 1}^k  \sum_{z_2= 1}^k  \dots  \sum_{z_N= 1}^k \Big(  \sum_{i=1}^N \big[ \log \alpha_{z_i} + \log \mathcal{N}(\mu_{z_i}, \Sigma_{z_i})  \big] * \Pi_{i=1}^N  p(z_i| x_i, \Theta^{(g)}) \Big) \\
-= \sum_{i=1}^N \sum_{l = 1}^k \big( \log \alpha_{l} + \log \mathcal{N}(\mu_{l}, \Sigma_{l}) \big) p(l| x_i, \Theta^{(g)}) \tag{15}
+Q(\Theta, \Theta^{(g)}) = \sum_{z_1= 1}^k  \sum_{z_2= 1}^k  \dots  \sum_{z_N= 1}^k \Big( \sum_{i=1}^N \big[ \log \alpha_{z_i} + \log \mathcal{N}(\mu_{z_i}, \Sigma_{z_i})  \big] * \Pi_{i=1}^{N}  p(z_i| x_i, \Theta^{(g)}) \Big) 
 $$
+$$
+ = \sum_{i=1}^N \sum_{l = 1}^k \big( \log \alpha_{l} + \log \mathcal{N}(\mu_{l}, \Sigma_{l}) \big) p(l| x_i, \Theta^{(g)}) \tag{15}
+$$
+
+
 ***M-Step:***
 $$
 Q(\Theta, \Theta^{(g)}) = \sum_{i=1}^N \sum_{l = 1}^k  \log (\alpha_{l}) p(l| x_i, \Theta^{(g)})  + \sum_{i=1}^N \sum_{l = 1}^k\log \mathcal{N}(\mu_{l}, \Sigma_{l}) p(l| x_i, \Theta^{(g)}) \tag{16}

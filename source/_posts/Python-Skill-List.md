@@ -2,6 +2,7 @@
 title: Python Skill List
 date: 2018-01-25 11:01:05
 tags: Python
+categories: [Python]
 ---
 
 偶然间在知乎上看到了一篇文章: [我眼中一个好的Pythoneer应该具备的品质](https://zhuanlan.zhihu.com/p/33266239)，于是想思考一下这些问题的答案。

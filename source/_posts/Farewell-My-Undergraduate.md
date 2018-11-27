@@ -1,8 +1,8 @@
 ---
 title: Farewell My Undergraduate
 date: 2017-07-08 11:14:11
-categories: Life
-tags: Life
+categories: [杂]
+tags: [Life]
 ---
 
 四年的时间过得飞快，初来乍到的情景还能清晰地浮现在脑海中，现在却已经毕业了。其实对我个人而言，因为我还要在这里呆两年多的时间，所以毕业的感觉也不是那么强烈，但是想到有些同学要好久才能再见面，也是有许多的不舍。
