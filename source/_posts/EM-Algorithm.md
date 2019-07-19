@@ -3,6 +3,7 @@ title: EM Algorithm
 date: 2018-01-18 13:08:13
 tags: [Machine Learning]
 categories: [Machine Learning]
+mathjax: true
 ---
 
 I'd like to talk about something about EM algorithm in my understanding.

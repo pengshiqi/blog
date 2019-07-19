@@ -3,7 +3,7 @@ title: LDA(Latent Dirichlet Allocation)
 date: 2017-09-14 15:54:31
 tags: Machine Learning
 categories: Machine Learning
-<!-- mathjax: true -->
+mathjax: true
 ---
 
 先借用Wikipedia上内容介绍一下LDA(隐含狄利克雷分布)：
@@ -37,6 +37,5 @@ categories: Machine Learning
 * [通俗理解LDA主题模型](http://blog.csdn.net/v_july_v/article/details/41209515)
 * [隐含狄利克雷分布](https://zh.wikipedia.org/wiki/隐含狄利克雷分布)
 
-<script type="text/javascript"
-   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
+
+
