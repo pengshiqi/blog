@@ -5,18 +5,21 @@ date: 2016-08-13 10:33:40
 
 ## About me
 
-我来自上海交通大学未来媒体网络协同创新中心，主要的研究方向是**机器学习**。
+An SJTUer.
 
 ## Hobbies
 
-爱好各种体育运动，擅长台球、乒乓球等。
+Billiards, snooker.
 
-爱好看电影、听音乐，业余时间还会看一些比较热门的电视剧，国产剧、韩剧、美剧等等。
+Movie: Leon, Slumdog Millionaire.
 
-在宿舍无聊时会打打游戏，曾经炉石传说月月传说，曾经英雄联盟纵横青铜五，如今刺激战场超级王牌。
+Music: JJ Lin, Taylor Swift.
 
-喜欢旅游，有过很多次说走就走的旅行。
+TV Series: Sense8.
 
-希望能做一个有趣的人。
+Games: Hearth Stone, League of Legends, PUBG Mobile.
+
+Travel: America, Singapore, Thailand, Japan.
 
 May the force be with me.
+
