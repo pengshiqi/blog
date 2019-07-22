@@ -15,7 +15,7 @@ Time: Jun 30th, 2019 @ 10:30 AM - 12:00 AM  (GMT+8)
 
 第3题在12:04分才通过…可惜了...
 
-<img src="/images/LeetCode-Weekly-Contest/143.png" style="zoom:100%" />
+<img src="143.png" style="zoom:100%" />
 
 
 

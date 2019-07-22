@@ -29,7 +29,7 @@ Bilinear model其实很早就提出了，之前的想法是对两种因素的变
 
 ## Method
 
-<img src="/images/Bilinear-CNNs-for-Fine-grained-Visual-Recognition-论文解读/image1.png" style="zoom:80%" />
+<img src="image1.png" style="zoom:80%" />
 
 上图就是这篇文章提出的网络模型。一个Bilinear模型 $\mathcal{B} $ 由一个四元组组成：$ \mathcal{B} = (f_A, f_B, \mathcal{P}, \mathcal{C} ) $，其中，$f_A$、$f_B$代表特征提取函数，即图中的CNN网络$A$和$B$，$\mathcal{P}$是一个池化函数，$\mathcal{C}$是一个分类函数。
 
@@ -37,7 +37,7 @@ Bilinear model其实很早就提出了，之前的想法是对两种因素的变
 
 池化函数$\mathcal{P}$的作用是将所有位置的bilinear特征汇聚成一个特征，这篇文章中采用的池化方法是将所有位置的bilinear特征累加：$\phi(\mathcal{I}) = \sum_{l\in \mathcal{L}}bilinear (l,\mathcal{I},f_A,f_B)$，这里得到的bilinear向量即可表示该细粒度图像。
 
- <img src="/images/Bilinear-CNNs-for-Fine-grained-Visual-Recognition-论文解读/image2.png" style="zoom:80%"/>
+ <img src="image2.png" style="zoom:80%"/>
 
 由于特征的位置维度被积分掉了，所以得到的bilinear特征向量是orderless的。另外，因为外积的原因，导致了特征的维度$D$增大为了原来的平方。
 
@@ -55,11 +55,11 @@ Bilinear model其实很早就提出了，之前的想法是对两种因素的变
 
 作者在CUB-200-2011、aircrafts和cars三个数据集上进行了实验，与FV-SIFT(Fisher vector representation with SIFT features)等方法进行了对比，具体实验数据参见下表。
 
-<img src="/images/Bilinear-CNNs-for-Fine-grained-Visual-Recognition-论文解读/image3.png" style="zoom:80%"/>
+<img src="image3.png" style="zoom:80%"/>
 
 下图展现的是fine-tune过的B-CNN模型的一些卷积核的相应情况，从这些图片可以看出，两支网络的作用并不是那么清晰可分的，这两支网络都会倾向于发现特定的语义部分（比如最后一行）。
 
-<img src="/images/Bilinear-CNNs-for-Fine-grained-Visual-Recognition-论文解读/image4.png" style="zoom:100%"/>
+<img src="image4.png" style="zoom:100%"/>
 
 ## Conclusion
 

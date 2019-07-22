@@ -35,7 +35,7 @@ ACoL有两个优点：
 
 ## Method
 
-<img src="/images/Adversarial-Complementary-Learning-for-Weakly-Supervised-Object-Localization-论文解读/image1.png" style="zoom:60%" />
+<img src="image1.png" style="zoom:60%" />
 
 上图是对ACoL的一个解释。假设我们要定位一匹马，分类器A会发现一些显著区域（马的头和后腿），在分类器B的feature map中将这些部分擦除，可以让分类器B发现其他的显著区域（马的前腿），将这两部分融合起来，就能得到完整的目标区域（马）。
 
@@ -47,7 +47,7 @@ ACoL有两个优点：
 
 图片通过FCN后得到feature map，在后面接两个3x3 的conv层和一个C-channel的1x1 conv层，然后通过GAP和softmax做分类。通过1x1 conv层后的feature map就是localization maps，与原始CAM是等价的。
 
-<img src="/images/Adversarial-Complementary-Learning-for-Weakly-Supervised-Object-Localization-论文解读/image5.png" style="zoom:100%" />
+<img src="image5.png" style="zoom:100%" />
 
 上图是作者提出的方法与原始CAM的结果对比以及模型对比。
 
@@ -55,7 +55,7 @@ ACoL有两个优点：
 
 ### The proposed ACoL
 
-<img src="/images/Adversarial-Complementary-Learning-for-Weakly-Supervised-Object-Localization-论文解读/image2.png" style="zoom:100%" />
+<img src="image2.png" style="zoom:100%" />
 
 ACoL的整体框架如上图所示，包括三个部分：Backbone、分类器A和分类器B。
 
@@ -63,7 +63,7 @@ Backbone是一个全卷积网络（Fully Convolutional Network），用作特征
 
 算法流程如下所示：
 
-<img src="/images/Adversarial-Complementary-Learning-for-Weakly-Supervised-Object-Localization-论文解读/image3.png" style="zoom:100%" />
+<img src="image3.png" style="zoom:100%" />
 
 
 
@@ -73,7 +73,7 @@ Backbone是一个全卷积网络（Fully Convolutional Network），用作特征
 
 Ablation study是尝试不同的threshold对结果的影响，0.6或0.7可以达到最好的效果。
 
-<img src="/images/Adversarial-Complementary-Learning-for-Weakly-Supervised-Object-Localization-论文解读/image4.png" style="zoom:100%" />
+<img src="image4.png" style="zoom:100%" />
 
 上图是ACoL与CAM在目标定位的结果对比示例，可以看到，ACoL更能捕捉到整个物体，这就是作者的出发点。
 

@@ -44,7 +44,7 @@ categories: [Paper Report]
 
 整个Affinity module的结果如下图所示：
 
-<img src="/images/CIAN 论文解读/image1.png" style="zoom:100%" />
+<img src="image1.png" style="zoom:100%" />
 
 
 
@@ -54,7 +54,7 @@ categories: [Paper Report]
 
 整体网络结构如下图所示：
 
-<img src="/images/CIAN 论文解读/image2.png" style="zoom:100%" />
+<img src="image2.png" style="zoom:100%" />
 
 输入batch分为许多groups，每个group内部的图片至少有一个共同标签。通过backbone之后分为两支，G-AM和S-AM，分别根据 cross-image affinity 和 intra-image affinity 来计算出messages，以此增强原始feature，去预测分割结果。两支网络的参数全部共享。
 
@@ -68,7 +68,7 @@ categories: [Paper Report]
 
 我觉得比较有趣的是作者对affinity的可视化，可以更好地帮助我们理解同一个类别的图片间的相似性。
 
-<img src="/images/CIAN 论文解读/image3.png" style="zoom:60%" />
+<img src="image3.png" style="zoom:60%" />
 
 
 

@@ -35,7 +35,7 @@ MIL处理的问题是：现在有许多instances，把它们看作一个bag，�
 
 对于a bag of instances: $X = \{ x_1, \dots, x_K \}$，其中的instances既没有依赖关系，也没有顺序，对于不同的bag可以有不同的K值（数量）。其中每个instance都有未知标签$y_k \in \{ 0, 1\}, k=1,\dots, K$，假设bag的标签这么定义：（这个公式的排版有点捉急了...）
 
-<img src="/images/Attention-based Deep Multiple Instance Learning 论文解读/formula.png" style="zoom:45%" />
+<img src="formula.png" style="zoom:45%" />
 
 其实这就说明了MIL模型是`permutation-invariant`（排列无关/与顺序无关）的了，公式（1）也等价于
 $$
@@ -79,7 +79,7 @@ MIL问题可以看做`Fundamental Theorem of Symmetric Functions`的一个特例
 
 公式也不复杂，就是各个instances在low-embedding后的softmax加权平均，和之前的MIL pooling的对比如下图所示:
 
-![img1](/images/Attention-based Deep Multiple Instance Learning 论文解读/img1.png)
+![img1](img1.png)
 
 
 

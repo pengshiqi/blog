@@ -165,7 +165,7 @@ reference: <https://github.com/pjreddie/darknet/blob/master/src/avgpool_layer.c>
 
 2. 训练数据和测试数据的分布存在差异性，给网络的泛化性能带来影响。
 
-<img src="/images/Interview-2019-Autumn/batchnorm.png" style="zoom:40%" />
+<img src="batchnorm.png" style="zoom:40%" />
 
 reference: <https://blog.csdn.net/qq_25737169/article/details/79048516>
 

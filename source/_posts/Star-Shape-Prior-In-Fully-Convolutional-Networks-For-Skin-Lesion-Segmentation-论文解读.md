@@ -31,11 +31,11 @@ Star shape的定义是这样的：
 
 如下图(a)所示。
 
-<img src="/images/Star-Shape-Prior-In-Fully-Convolutional-Networks-For-Skin-Lesion-Segmentation-论文解读/image1.png" style="zoom:90%" />
+<img src="image1.png" style="zoom:90%" />
 
 然后基于star shape的定义，作者设计了这样一个损失函数：
 
-<img src="/images/Star-Shape-Prior-In-Fully-Convolutional-Networks-For-Skin-Lesion-Segmentation-论文解读/image2.png" style="zoom:80%" />
+<img src="image2.png" style="zoom:80%" />
 
 其中，$y_{ip}$是在图像$i$中像素$p$的真实标签。
 
@@ -53,11 +53,11 @@ Star shape的定义是这样的：
 
 （所有方法的SP都很高，但这篇文章的方法把SE提高了近5个点，Dice和Jaccard提高了1%。）
 
-<img src="/images/Star-Shape-Prior-In-Fully-Convolutional-Networks-For-Skin-Lesion-Segmentation-论文解读/image3.png" style="zoom:90%" />
+<img src="image3.png" style="zoom:90%" />
 
 下图展示的是有无Star shape约束时的效果对比。
 
-<img src="/images/Star-Shape-Prior-In-Fully-Convolutional-Networks-For-Skin-Lesion-Segmentation-论文解读/image4.png" style="zoom:90%" />
+<img src="image4.png" style="zoom:90%" />
 
 
 

@@ -21,13 +21,13 @@ Shadowsocks 不同于 VPN(Virtual Private Network)，它是 Proxy ，Github 上�
 
 在很久很久以前，我们访问各种网站都是简单而直接的，用户的请求通过互联网发送到服务提供方，服务提供方直接将信息反馈给用户。
 
-![icon](/images/Shadowsocks-principles/shadowsocks2.png)
+![icon](shadowsocks2.png)
 
 ## When evil comes...
 
 然后有一天，GFW 就出现了，它像一个收过路费的强盗一样夹在用户(client)和服务(server)之间，每当用户需要信息，都需要经过GFW，GFW会将它不喜欢的内容过滤掉。于是当用户触发GFW的过滤规则的时候，就会收到`Connection Reset`这样的相应内容，而无法接收到正常的请求内容。
 
-![icon](/images/Shadowsocks-principles/shadowsocks3.png)
+![icon](shadowsocks3.png)
 
 
 ## SSH tunnel
@@ -40,7 +40,7 @@ Shadowsocks 不同于 VPN(Virtual Private Network)，它是 Proxy ，Github 上�
 
 4) 5) 服务器通过SSH server，再通过创建好的隧道返回给用户。
 
-![icon](/images/Shadowsocks-principles/shadowsocks4.png)
+![icon](shadowsocks4.png)
 
 由于SSH本身就是基于RSA加密技术的，所以GFW无法从数据传输的过程中进行关键词分析，避免了被重置链接的问题。但由于创建隧道和数据传输的过程中，SSH本身的特征很明显，所以GFW一度通过分析连接的特征进行干扰，导致SSH存在被定向干扰的问题。
 
@@ -56,7 +56,7 @@ Shadowsocks 不同于 VPN(Virtual Private Network)，它是 Proxy ，Github 上�
 
 3) 4) SS server将收到的加密数据进行解密，还原原来的请求，再发送到用户需要访问的服务器，获取响应原路返回。
 
-![icon](/images/Shadowsocks-principles/shadowsocks5.png)
+![icon](shadowsocks5.png)
 
 ## Summary
 

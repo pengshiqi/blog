@@ -20,7 +20,7 @@ MBP 主要的优势在于 user-friendly，并且是 \*nix 系统，相比windows
 
 ### 1.1 Xcode 
 
-<img src="/images/我的MacBook/xcode.png" style="zoom:45%" />
+<img src="xcode.png" style="zoom:45%" />
 
 首先必然是OS X系统的招牌IDE：`Xcode`。
 
@@ -31,7 +31,7 @@ Xcode主要是用来开发苹果产品上的软件的，使用Swift可能会比�
 
 ### 1.2 JetBrains全家桶
 
-![jetbrains](/images/我的MacBook/jetbrains.png)
+![jetbrains](jetbrains.png)
 
 
 JetBrains是一家捷克的公司，他们的IDE做的非常好，有相似的UI，以及可以跨平台（Windows, Linux, OS X）使用，感觉就是IDE界的Adobe...其中PyCharm和IntelliJ IDEA有community版本，是免费的，其他的是用edu邮箱注册的学生账号使用的。
@@ -47,7 +47,7 @@ WebStorm是用来web开发的，DataGrip是数据库开发的，用的不多。
 
 ## 2. 编辑器(Editor)
 
-![editor](/images/我的MacBook/editor.png)
+![editor](editor.png)
 
 前三个应该是目前主流的三个编辑器了。Sublime Text是需要购买，但可以免费使用的; VS code 和 Atom 分别是微软和GitHub的产品，都是开源Hackable的编辑器。
 
@@ -59,11 +59,11 @@ Brackets 据说是一款很好用的前端开发编辑器，还没有深度使�
 
 ## 3. iTerm2
 
-![iterm2](/images/我的MacBook/iterm2.png)
+![iterm2](iterm2.png)
 
 Mac 自带的Terminal是bash，界面不太美观，于是使用 `iTerm2 + Oh My Zsh`  配上 `powerline` 高度自定义了Terminal。
 
-![vim](/images/我的MacBook/vim.gif)
+![vim](vim.gif)
 
 vim 是Terminal中常用的编辑器，我在 [GitHub](https://github.com/wklken/k-vim) 上找了一个同学的配置来使用。
 
@@ -73,7 +73,7 @@ vim 是Terminal中常用的编辑器，我在 [GitHub](https://github.com/wklken
 
 ## 4. 其他软件
 
-![efficiency](/images/我的MacBook/efficiency.png)
+![efficiency](efficiency.png)
 
 印象笔记（Evernote）是一款很好用的跨平台记笔记软件。
 
@@ -85,7 +85,7 @@ Teamviewer 是远程控制桌面的软件，团队协作必备。
 
 <!-- ![efficiency2](/images/我的MacBook/efficiency2.png) -->
 
-<img src="/images/我的MacBook/efficiency2.png" style="zoom:40%" />
+<img src="efficiency2.png" style="zoom:40%" />
 
 
 mpv 是一款开源的播放器，占用内存小，运行速度快。

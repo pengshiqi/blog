@@ -24,7 +24,7 @@ arxiv链接在[https://arxiv.org/abs/1805.10241](https://arxiv.org/abs/1805.1024
 
 ## Method
 
-<img src="/images/SLSDeep-Skin-Lesion-Segmentation-Based-on-Dilated-Residual-and-Pyramid-Pooling-Networks-论文解读/image1.png" style="zoom:100%" />
+<img src="image1.png" style="zoom:100%" />
 
 文章提出的网络结构如上图所示。
 
@@ -34,25 +34,25 @@ arxiv链接在[https://arxiv.org/abs/1805.10241](https://arxiv.org/abs/1805.1024
 
 NLL loss，$v$是true label，$p$是probability estimate:
 
-<img src="/images/SLSDeep-Skin-Lesion-Segmentation-Based-on-Dilated-Residual-and-Pyramid-Pooling-Networks-论文解读/image2.png" style="zoom:50%" />
+<img src="image2.png" style="zoom:50%" />
 
 EPE loss 参考了IJCV 2011的[论文](http://vision.middlebury.edu/flow/floweval-ijcv2011.pdf)，$u$是 generated mask，$v$是 ground truth:
 
-<img src="/images/SLSDeep-Skin-Lesion-Segmentation-Based-on-Dilated-Residual-and-Pyramid-Pooling-Networks-论文解读/image3.png" style="zoom:50%" />
+<img src="image3.png" style="zoom:50%" />
 
 total loss 为两者加权相加：
 
-<img src="/images/SLSDeep-Skin-Lesion-Segmentation-Based-on-Dilated-Residual-and-Pyramid-Pooling-Networks-论文解读/image4.png" style="zoom:50%" />
+<img src="image4.png" style="zoom:50%" />
 
 ## Experiments
 
 作者在ISBI 2016和ISBI2017两个数据集上做了实验。
 
-<img src="/images/SLSDeep-Skin-Lesion-Segmentation-Based-on-Dilated-Residual-and-Pyramid-Pooling-Networks-论文解读/image5.png" style="zoom:60%" />
+<img src="image5.png" style="zoom:60%" />
 
 可以看出，加上EPE loss后，在accuracy上会有 1-2% 的提升，在dice上会有 4-5% 的提升。
 
-<img src="/images/SLSDeep-Skin-Lesion-Segmentation-Based-on-Dilated-Residual-and-Pyramid-Pooling-Networks-论文解读/image6.png" style="zoom:100%" />
+<img src="image6.png" style="zoom:100%" />
 
 这是一个qualitative result，展示了模型好的分割结果以及不好的分割结果。
 

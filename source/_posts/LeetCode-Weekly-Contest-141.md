@@ -17,7 +17,7 @@ Time: Jun 16th, 2019 @ 10:30 AM - 12:00 AM  (GMT+8)
 
 这周罚时了20min…因为罚时掉了100多名...
 
-<img src="/images/LeetCode-Weekly-Contest/141.png" style="zoom:100%" />
+<img src="141.png" style="zoom:100%" />
 
 
 

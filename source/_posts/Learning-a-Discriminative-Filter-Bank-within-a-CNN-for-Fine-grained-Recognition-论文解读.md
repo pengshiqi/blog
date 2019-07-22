@@ -17,13 +17,13 @@ categories: [Paper Report]
 
 这个方法的motivation如下图所示：
 
-![img1](/images/Learning a Discriminative Filter Bank within a CNN for Fine-grained Recognition 论文解读/img1.png)
+![img1](img1.png)
 
 
 拿base model为VGG16举例（不限于VGG16，ResNet也可以），模型的整体结构如下图所示：
 
 <!-- ![img2](/images/Learning a Discriminative Filter Bank within a CNN for Fine-grained Recognition 论文解读/img2.png) -->
-<img src="/images/Learning a Discriminative Filter Bank within a CNN for Fine-grained Recognition 论文解读/img2.png" style="zoom:40%" />
+<img src="img2.png" style="zoom:40%" />
 
 先用基础的VGG16的 Conv1 - Conv4 层，提取出feature map，然后分为3个branch，从左到右依次命名为: G-Stream, P-Stream, Side Branch。
 
@@ -34,7 +34,7 @@ P-Stream 用于提取discriminative patches，所以叫 P-Stream。VGG16的Conv4
 Side branch的作用是对conv6层做supervision。核心是一个Cross-Channel Pooling层，其实也就是一个一维pooling层，具体如下图所示:
 
 <!-- ![img3](/images/Learning a Discriminative Filter Bank within a CNN for Fine-grained Recognition 论文解读/img3.png) -->
-<img src="/images/Learning a Discriminative Filter Bank within a CNN for Fine-grained Recognition 论文解读/img3.png" style="zoom:50%" />
+<img src="img3.png" style="zoom:50%" />
 
 这里的supervision就是，之前1x1的卷积核有kxM个，经过 Conv 6 + Pool 6 之后，得到的是一个 kM x 1 x 1 的向量，这里我们认为每k个对应一个class，所以做一个一维average pooling，得到Mx1x1的向量，用于最后的分类。
 

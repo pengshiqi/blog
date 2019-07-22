@@ -64,7 +64,7 @@ for i in range(30):
 plt.show()
 ```
 
-![img1](/images/Dimension Reduction using PCA and t-SNE/img1.png)
+![img1](img1.png)
 
 These images are all essentially 28-by-28 pixel images and therefore have a total of 784 dimensions, each holding the value of one specific pixel.
 
@@ -103,7 +103,7 @@ chart = ggplot( df.loc[rndperm[:3000],:], aes(x='pca-one', y='pca-two', color='l
 chart
 ```
 
-![img2](/images/Dimension Reduction using PCA and t-SNE/img2.png)
+![img2](img2.png)
 
 From the graph we can see that the two components definitely hold some information, but clearly not enough to set all of them apart.
 
@@ -150,7 +150,7 @@ chart = ggplot( df_tsne, aes(x='x-tsne', y='y-tsne', color='label') ) \
 chart
 ```
 
-![img3](/images/Dimension Reduction using PCA and t-SNE/img3.png)
+![img3](img3.png)
 
 This is already a significant improvement over the PCA visualization we used earlier. We can see that the digits are very clearly clustered in their own little group.
 

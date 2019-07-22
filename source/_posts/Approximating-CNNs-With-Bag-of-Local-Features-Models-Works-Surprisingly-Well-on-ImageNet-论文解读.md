@@ -23,7 +23,7 @@ categories: [Paper Report]
 
 ## Network Architecture
 
-<img src="../images/Approximating-CNNs-With-Bag-of-Local-Features-Models-Works-Surprisingly-Well-on-ImageNet-论文解读/image1.png" style="zoom:100%" />
+<img src="image1.png" style="zoom:100%" />
 
 BagNets的网络结构如上图所示。网络结构和ResNet的唯一区别就是，将一些原来的3x3卷积层替换成了1x1卷积层（具体是哪些可以参见代码），这样可以限制最上面卷积层的感受野为qxq的大小，这样的BagNet记为BagNet-q，$q\in[9, 17, 33]$。
 
@@ -33,11 +33,11 @@ BagNet-17能达到AlexNet的精度，BagNet-33能达到约87%的top-5 accuracy�
 
 BagNet的一个特色是其透明的决策，即可解释性，可以知道DNN是如何做出分类决策的。
 
-<img src="../images/Approximating-CNNs-With-Bag-of-Local-Features-Models-Works-Surprisingly-Well-on-ImageNet-论文解读/image2.png" style="zoom:100%" />
+<img src="image2.png" style="zoom:100%" />
 
 还可以根据各个patch对决策的贡献，画出热力图。
 
-<img src="../images/Approximating-CNNs-With-Bag-of-Local-Features-Models-Works-Surprisingly-Well-on-ImageNet-论文解读/image3.png" style="zoom:100%" />
+<img src="image3.png" style="zoom:100%" />
 
 当然，DNN并不完全类似于Bag-of-Feature model，确实有偏差，而且，网络越深，对全局的依赖性也就越大。
 

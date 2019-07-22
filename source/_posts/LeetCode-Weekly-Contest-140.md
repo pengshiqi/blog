@@ -15,7 +15,7 @@ Time: Jun 09th, 2019 @ 10:30 AM - 12:00 AM  (GMT+8)
 
 Exciting~第一次排名进top100！
 
-<img src="/images/LeetCode-Weekly-Contest/140.png" style="zoom:100%" />
+<img src="140.png" style="zoom:100%" />
 
 这一次全用python写的，写起来快了不少...
 
