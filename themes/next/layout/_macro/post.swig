@@ -47,6 +47,12 @@
         {% endif %}
 
         <div class="post-meta">
+          {% if post.top %}
+            <i class="fa fa-thumb-tack"></i>
+            <font color=7D26CD>置顶</font>
+            <span class="post-meta-divider">|</span>
+          {% endif %}
+          
           <span class="post-time">
             <span class="post-meta-item-icon">
               <i class="fa fa-calendar-o"></i>
