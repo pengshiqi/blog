@@ -1,7 +1,8 @@
 ---
 title: Redis 在 Mac 上的安装与使用
 date: 2016-08-12 16:34:08
-categories: Database
+categories: 
+- 教程
 tags: Database
 ---
 

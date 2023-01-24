@@ -1,8 +1,11 @@
 ---
 title: Interview 2019 Autumn
 date: 2019-07-05 09:08:06
-tags: [Life, Interview]
-categories: [Life]
+tags: 
+- Life
+- Interview
+categories:
+- 学习
 ---
 
 

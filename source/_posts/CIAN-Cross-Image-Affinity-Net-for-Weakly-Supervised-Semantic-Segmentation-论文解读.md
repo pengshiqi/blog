@@ -1,8 +1,11 @@
 ---
 title: CIAN Cross-Image Affinity Net for Weakly Supervised Semantic Segmentation 论文解读
 date: 2019-01-20 17:15:08
-tags: [Weakly Supervised Segmentation, Machine Learning]
-categories: [Paper Report]
+tags: 
+- Weakly Supervised Segmentation
+- Machine Learning
+categories:
+- 学习
 ---
 
 这是中科院投稿 CVPR 2019 的一篇关于弱监督语义分割的文章。

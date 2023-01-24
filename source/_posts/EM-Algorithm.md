@@ -1,8 +1,10 @@
 ---
 title: EM Algorithm
 date: 2018-01-18 13:08:13
-tags: [Machine Learning]
-categories: [Machine Learning]
+tags: 
+- Machine Learning
+categories:
+- 学习
 mathjax: true
 ---
 

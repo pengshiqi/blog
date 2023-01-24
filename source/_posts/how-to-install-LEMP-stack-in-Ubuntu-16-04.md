@@ -1,8 +1,13 @@
 ---
 title: 如何在 Ubuntu 16.04 上安装 LEMP Stack(Linux, Nginx, MySQL, PHP)
 date: 2016-11-08 14:50:43
-tags: [Linux, Server, MySQL, PHP]
-categories: [Linux]
+tags: 
+- Linux
+- Server
+- MySQL
+- PHP
+categories:
+- 教程
 ---
 
 ## Introduction

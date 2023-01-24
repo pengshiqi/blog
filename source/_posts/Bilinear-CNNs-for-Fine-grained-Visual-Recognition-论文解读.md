@@ -2,7 +2,8 @@
 title: Bilinear CNNs for Fine-grained Visual Recognition 论文解读
 date: 2019-01-28 14:02:08
 tags: [Fine-grained Image Classification]
-categories: [Paper Report]
+categories:
+- 学习
 ---
 
 这是发表在 ICCV 2015 上的一篇关于细粒度图像分类的文章。

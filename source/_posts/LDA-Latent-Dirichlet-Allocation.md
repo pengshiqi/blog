@@ -1,8 +1,10 @@
 ---
 title: LDA(Latent Dirichlet Allocation)
 date: 2017-09-14 15:54:31
-tags: Machine Learning
-categories: Machine Learning
+tags:
+- Machine Learning
+categories:
+- 学习
 mathjax: true
 ---
 

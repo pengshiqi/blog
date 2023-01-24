@@ -1,8 +1,12 @@
 ---
 title: Attention-based Deep Multiple Instance Learning 论文解读
 date: 2018-11-29 10:07:08
-tags: [Multiple Instance Learning, Machine Learning]
-categories: [Paper Report]
+tags: 
+- Multiple Instance Learning
+- Machine Learning
+categories:
+- 学习
+mathjax: true
 ---
 
 这是发表在 ICML 2018 上的一篇关于 MIL 的文章，文章内容其实挺简单，但是讲的很好，其中MIL的思想可以借鉴。
@@ -79,8 +83,7 @@ MIL问题可以看做`Fundamental Theorem of Symmetric Functions`的一个特例
 
 公式也不复杂，就是各个instances在low-embedding后的softmax加权平均，和之前的MIL pooling的对比如下图所示:
 
-![img1](img1.png)
-
+<img src="img1.png" style="zoom:100%" />
 
 
 最后实验部分，作者给出了这个方法在MNIST数据集和一个组织病理学数据集上的实验，证明其有效性。

@@ -2,9 +2,10 @@
 title: Hello World
 date: 2016-08-10 00:00:00
 tags: Life
-categories: [杂]
+categories:
+- 生活
 ---
-大家好，我是 Patrick, 现在是上海交通大学EE的本科生。
+大家好，我是 Patrick。
 
 现在主要使用的语言有 python、C++，还想学习一些前端相关的知识，于是建立了这个技术博客，希望能记录下自己学习过程中的点点滴滴。
 

@@ -2,7 +2,8 @@
 title: NumPy & pandas 学习笔记
 date: 2017-09-05 17:58:00
 tags: Python
-categories: Python
+categories:
+- 学习
 ---
 
 # NumPy

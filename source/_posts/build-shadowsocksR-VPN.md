@@ -1,8 +1,10 @@
 ---
 title: 翻墙教程[2]：用国外VPS搭建自己的ShadowsocksR服务
 date: 2019-06-12 23:29:57
-tags: [Shadowsocks]
-categories: [杂]
+tags: 
+- Shadowsocks
+categories:
+- 教程
 ---
 
 这次简单写一下如何在VPS上启动ShadowsocksR服务。

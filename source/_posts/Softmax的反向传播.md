@@ -2,7 +2,8 @@
 title: Softmax的反向传播
 date: 2019-07-06 15:07:24
 tags: [Machine Learning]
-categories: [Machine Learning]
+categories: 
+- 学习
 mathjax: true
 ---
 

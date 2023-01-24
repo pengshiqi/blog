@@ -1,8 +1,10 @@
 ---
 title: Adversarial Complementary Learning for Weakly Supervised Object Localization 论文解读
 date: 2019-01-22 09:54:08
-tags: [Weakly Supervised Object Localization]
-categories: [Paper Report]
+tags: 
+- Weakly Supervised Object Localization
+categories:
+- 学习
 ---
 
 这是发表在 CVPR 2018 上的一篇关于弱监督目标定位的文章。

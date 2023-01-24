@@ -2,7 +2,8 @@
 title: LeetCode Weekly Contest 114
 date: 2018-12-09 10:02:21
 tags: LeetCode
-categories: LeetCode
+categories:
+- 学习
 ---
 
 

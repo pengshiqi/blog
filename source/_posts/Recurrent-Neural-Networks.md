@@ -2,7 +2,8 @@
 title: Recurrent Neural Networks
 date: 2018-01-03 17:31:33
 tags: Machine Learning
-categories: [Machine Learning]
+categories: 
+- 学习
 ---
 
 Recurrent neural networks have connections that have loops, adding feedback and memory to the networks over time.

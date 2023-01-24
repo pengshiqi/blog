@@ -1,8 +1,11 @@
 ---
 title: 'LeetCode 72: Edit Distance'
 date: 2019-06-25 11:29:01
-tags: [LeetCode, Dynamic Programming]
-categories: [LeetCode, Dynamic Programming]
+tags:
+- LeetCode
+- Dynamic Programming
+categories:
+- 学习
 ---
 
 #### **题目大意：**
@@ -19,7 +22,7 @@ categories: [LeetCode, Dynamic Programming]
 * 删除一个字母 (delete)
 * 替换一个字母 (replace)
 
-Example 1:  
+Example 1:
 
 ```
 Input: word1 = "horse", word2 = "ros"

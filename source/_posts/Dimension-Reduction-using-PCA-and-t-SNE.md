@@ -1,8 +1,11 @@
 ---
 title: Dimension Reduction using PCA and t-SNE
 date: 2018-03-05 17:11:13
-tags: [Machine Learning, Python]
-categories: [Machine Learning, Python]
+tags: 
+- Machine Learning
+- Python
+categories:
+- 学习
 ---
 
 Most datasets have a high number of dimensions along which the data is distributed. It is key to understand how to visualize high-dimensional datasets. This can be achieved using techniques known as dimensionality reduction. This post will focus on two techniques: PCA and t-SNE.

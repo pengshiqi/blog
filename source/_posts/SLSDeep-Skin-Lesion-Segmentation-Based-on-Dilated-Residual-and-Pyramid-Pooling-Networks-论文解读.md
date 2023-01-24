@@ -1,8 +1,11 @@
 ---
 title: SLSDeep-Skin Lesion Segmentation Based on Dilated Residual and Pyramid Pooling Networks 论文解读
 date: 2019-02-20 13:11:08
-tags: [Image Segmentation, MICCAI]
-categories: [Paper Report]
+tags: 
+- Image Segmentation
+- MICCAI
+categories: 
+- 学习
 ---
 
 这是发表在 MICCAI 2018 上的一篇关于病灶分割的文章。

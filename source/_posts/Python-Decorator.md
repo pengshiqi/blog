@@ -2,7 +2,8 @@
 title: Python Decorator
 date: 2017-09-13 13:51:40
 tags: Python
-categories: Python
+categories: 
+- 学习
 ---
 
 Python 的 Decorator 是一个非常有用的工具，比如Flask的路由(router)，Decorator的目的是对已有的模块做一些修饰工作，使用方法就是在方法名前加上 '@XXX' 注解来为这个方法装饰一些东西。

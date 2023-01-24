@@ -1,8 +1,10 @@
 ---
 title: Approximating CNNs With Bag-of-Local-Features Models Works Surprisingly Well on ImageNet 论文解读
 date: 2019-02-21 15:06:08
-tags: [Interpretable DNN]
-categories: [Paper Report]
+tags: 
+- Interpretable DNN
+categories:
+- 学习
 ---
 
 这是发表在 ICLR 2019 上的一篇关于深度神经网络可解释性的文章。

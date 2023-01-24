@@ -1,8 +1,11 @@
 ---
 title: Star Shape Prior in Fully Convolutional Networks for Skin Lesion Segmentation 论文解读
 date: 2019-03-03 19:30:08
-tags: [Medical, Image Segmentation]
-categories: [Paper Report]
+tags: 
+- Medical
+- Image Segmentation
+categories: 
+- 学习
 ---
 
 这是发表在 MICCAI 2018 上的一篇关于病灶图像分割的文章。

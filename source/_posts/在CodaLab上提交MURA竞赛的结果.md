@@ -2,7 +2,8 @@
 title: 在CodaLab上提交MURA竞赛的结果
 date: 2018-06-25 20:15:42
 tags: [Machine Learning]
-categories: [杂]
+categories: 
+- 教程
 ---
 
 

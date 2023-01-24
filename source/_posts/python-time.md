@@ -2,7 +2,8 @@
 title: python中的time模块
 date: 2016-08-15 17:40:06
 tags: Python
-categories: Python
+categories: 
+- 教程
 ---
 
 因为最近总是会用到time这个模块，需要经常时间戳和时间字符串转换，而我又不太记得，故整理了一下python中的time模块，记录下来。

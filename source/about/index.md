@@ -5,21 +5,23 @@ date: 2016-08-13 10:33:40
 
 ## About me
 
-An SJTUer.
+Graduated from SJTU, currently a bytedancer.
 
 ## Hobbies
 
-Billiards, snooker.
+Billiards, traveling, photography, pop songs.
 
-Movie: Leon, Slumdog Millionaire.
+Movies: Leon, Slumdog Millionaire.
 
 Music: JJ Lin, Taylor Swift.
 
-TV Series: Sense8.
+TV Series: Sense8, Game of Thrones.
 
 Games: Hearth Stone, League of Legends, PUBG Mobile.
 
-Travel: America, Singapore, Thailand, Japan.
+Travel: USA, Singapore, Thailand, Japan, Korea.
 
-May the force be with me.
+-----
+
+May the force be with me!
 

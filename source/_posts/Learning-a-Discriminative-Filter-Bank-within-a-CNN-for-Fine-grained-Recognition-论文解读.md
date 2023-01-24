@@ -1,8 +1,12 @@
 ---
 title: Learning a Discriminative Filter Bank within a CNN for Fine-grained Recognition 论文解读
 date: 2018-11-26 23:41:16
-tags: [Papers, Machine Learning, Computer Vision] 
-categories: [Paper Report]
+tags: 
+- Papers
+- Machine Learning
+- Computer Vision
+categories:
+- 学习
 ---
 
 这是CVPR2018的一篇做细粒度图像分类的文章。
@@ -17,7 +21,7 @@ categories: [Paper Report]
 
 这个方法的motivation如下图所示：
 
-![img1](img1.png)
+<img src="img1.png" style="zoom:100%" />
 
 
 拿base model为VGG16举例（不限于VGG16，ResNet也可以），模型的整体结构如下图所示：
